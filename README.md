@@ -18,7 +18,7 @@ The CEM3396 is a microprocessor controlled dual waveshaper with an integral VCF 
 ![cem 3396 circuit](https://github.com/ekosynth/CEM3396/blob/master/images/basic_connections.PNG)
 
 ### Power
-The datasheet recommends an unconventoial ideal power supply of +12V positive and -5V negative. However, it mentions the chip can tolerate a maximum of 25V across the rails. Thus for the purposes of experimenting +/-12V is usable.
+The datasheet recommends an unconventional ideal power supply of +12V positive and -5V negative. However, it mentions the chip can tolerate a maximum of 25V across the rails. Thus for the purposes of experimenting +/-12V is usable.
 
 There are 11 control voltage inputs and they require 0-5V input. Thus a 5V supply will also be required. This could be most easily achieved using a 7805 regulator on the +12V supply.
 
